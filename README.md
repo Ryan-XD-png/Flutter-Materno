@@ -1,7 +1,19 @@
-# flutter_mae é uma projeto de dia das mães que estou disponiblisando o template aqui no git hub
-## Caso queira mudar o icone altere image_path: em pubspec.yaml e depois rode no terminal
-```cmd
+# flutter-Materno 
 
+Este é um projeto Flutter de homenagem ao Dia das Mães.  
+Estou disponibilizando este template aqui no GitHub para quem quiser usar ou modificar.
+
+---
+
+## Alterar ícone do app
+
+Para mudar o ícone do aplicativo, edite o campo `image_path` no arquivo `pubspec.yaml`.
+
+Depois execute o comando:
+
+```cmd
 flutter pub run flutter_launcher_icons
 ```
-## Não se esqueça de criar a pasta imgs em assets e editar no pubspec.yaml
+
+## assets/imgs 
+Não se esqueça de criar a pasta: `assets/imgs` E também declarar no pubspec.yaml.
